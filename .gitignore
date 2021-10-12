@@ -26,4 +26,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # package
-/frontend/package-lock.json
+frontend/package-lock.json
