@@ -6,7 +6,6 @@ const router = express.Router()
 // @desc Fetch all products
 // @route  GET /api/products
 // @access Public
-
 router.get(
   '/',
   asyncHanlder(async (req, res) => {
@@ -22,7 +21,6 @@ router.get(
   '/:id',
   asyncHanlder(async (req, res) => {
     const product = await Product.findById(req.params.id)
-
     if (product) {
       res.json(product)
     } else {
