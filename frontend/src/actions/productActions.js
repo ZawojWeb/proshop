@@ -1,7 +1,7 @@
 import { PRODUCT_LIST_FAIL, PRODUCT_LIST_SUCCESS, PRODUCT_LIST_REQUEST } from '../constants/productConstants'
 import axios from 'axios'
 
-export const listPorducts = () => async (dispatch) => {
+export const listProducts = () => async (dispatch) => {
   try {
     dispatch({ type: PRODUCT_LIST_REQUEST })
 
